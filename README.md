@@ -8,7 +8,8 @@ This theme is inspired by [Material Theme for Sublime Text 3](https://github.com
 1. Move `material.vim` to your `.vim/colors` directory or install with Pathogen by cloning this repo to your `~/.vim/bundle` directory.
 2. Change the ANSI colors in your Terminal preferences to the color codes in `colors.txt`.
 3. Add the following to your `.vimrc`:
-    ```
+
+    ```vimL
     syntax enable
     set background=dark
     colorscheme material
