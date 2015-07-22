@@ -27,7 +27,7 @@ endif
 " Theme Setup
 hi clear
 syntax reset
-let g:colors_name = "base16-materialtheme"
+let g:colors_name = "material"
 
 " Highlighting Function
 fun <sid>hi(group, ctermfg, ctermbg, attr)
@@ -122,8 +122,8 @@ call <sid>hi("Constant",     s:cterm01, "", "none")
 call <sid>hi("Define",       s:cterm0D, "", "none")
 call <sid>hi("Delimiter",    s:cterm0D, "", "none")
 call <sid>hi("Float",        s:cterm01, "", "none")
-call <sid>hi("Function",     s:cterm0D, "", "none")
-call <sid>hi("Identifier",   s:cterm0E, "", "none")
+call <sid>hi("Function",     s:cterm0C, "", "none")
+call <sid>hi("Identifier",   s:cterm0D, "", "none")
 call <sid>hi("Include",      s:cterm0D, "", "none")
 call <sid>hi("Keyword",      s:cterm0D, "", "none")
 call <sid>hi("Label",        s:cterm0C, "", "none")
@@ -134,7 +134,7 @@ call <sid>hi("Repeat",       s:cterm0D, "", "none")
 call <sid>hi("Special",      s:cterm0E, "", "none")
 call <sid>hi("SpecialChar",  s:cterm0D, "", "none")
 call <sid>hi("Statement",    s:cterm0E, "", "none")
-call <sid>hi("StorageClass", s:cterm0E, "", "none")
+call <sid>hi("StorageClass", s:cterm0B, "", "none")
 call <sid>hi("String",       s:cterm0A, "", "none")
 call <sid>hi("Structure",    s:cterm0E, "", "none")
 call <sid>hi("Tag",          s:cterm0E, "", "none")
@@ -143,8 +143,13 @@ call <sid>hi("Type",         s:cterm0E, "", "none")
 call <sid>hi("Typedef",      s:cterm0E, "", "none")
 
 " C Highlighting
-call <sid>hi("cOperator",   s:cterm0C, "", "")
-call <sid>hi("cPreCondit",  s:cterm0E, "", "")
+call <sid>hi("cOperator",  s:cterm0C, "", "")
+call <sid>hi("cPreCondit", s:cterm0E, "", "")
+call <sid>hi("cType",      s:cterm0D, "", "")
+call <sid>hi("cStatement", s:cterm0D, "", "")
+
+" C++ Highlighting
+call <sid>hi("cppStatement", s:cterm0D, "", "")
 
 " C# Highlighting
 call <sid>hi("csClass",                 s:cterm0A, "", "")
@@ -210,8 +215,10 @@ call <sid>hi("phpComparison",     s:cterm0E, "", "")
 call <sid>hi("phpParent",         s:cterm0E, "", "")
 
 " Python Highlighting
-call <sid>hi("pythonOperator", s:cterm0D, "", "")
-call <sid>hi("pythonRepeat",   s:cterm0D, "", "")
+call <sid>hi("pythonOperator",  s:cterm0D, "", "")
+call <sid>hi("pythonRepeat",    s:cterm0D, "", "")
+call <sid>hi("pythonStatement", s:cterm0D, "", "")
+call <sid>hi("pythonBuiltin",   s:cterm0E, "", "")
 
 " Ruby Highlighting
 call <sid>hi("rubyAttribute",              s:cterm0D, "", "")
