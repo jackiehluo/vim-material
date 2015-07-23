@@ -15,9 +15,9 @@ This theme is inspired by [Material Theme for Sublime Text 3](https://github.com
     | Text                | #C4C7D1  |
     | Black (00)          | #263238  |
     | Bright Black (08)   | #373B41  |
-    | Red (01)            | #EC5F67  |
-    | Bright Red (09)     | #FF516A  |
-    | Green (02)          | #C3E88D  |
+    | Red (01)            | #F25570  |
+    | Bright Red (09)     | #F3765D  |
+    | Green (02)          | #84B884  |
     | Bright Green (0A)   | #C2E985  |
     | Yellow (03)         | #FAD430  |
     | Bright Yellow (0B)  | #FFCC63  |
@@ -28,7 +28,7 @@ This theme is inspired by [Material Theme for Sublime Text 3](https://github.com
     | Cyan (06)           | #ACD5DA  |
     | Bright Cyan (0E)    | #7DCBC4  |
     | White (07)          | #707880  |
-    | Bright White (0F)   | #CDD3DE  |
+    | Bright White (0F)   | #C4C7D1  |
 
 3. Add the following to your `.vimrc`:
 
