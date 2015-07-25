@@ -1,5 +1,5 @@
 #Material for Vim
-This theme is inspired by [Material Theme for Sublime Text 3](https://github.com/equinusocio/material-theme) by [equinusocio](https://github.com/equinusocio) and works on terminal Vim.
+This theme is inspired by [Material Theme](https://github.com/equinusocio/material-theme) by [equinusocio](https://github.com/equinusocio) and works on terminal Vim.
 
 ![vim-material](https://www.github.com/jackiehluo/vim-material/raw/master/screenshot.png)
 
@@ -7,7 +7,7 @@ This theme is inspired by [Material Theme for Sublime Text 3](https://github.com
 
 1. Move `material.vim` to your `.vim/colors` directory or install with [Pathogen](https://github.com/tpope/vim-pathogen) by cloning this repo to your `~/.vim/bundle` directory.
 
-2. Install [Fira Code](https://github.com/tonsky/FiraCode), and import `material.terminal` in your Terminal preferences to add the color scheme. If you can't, you can manually change the ANSI colors in your Terminal preferences to these color codes:
+2. Import `material.terminal` in your Terminal preferences to add the color scheme. If you can't, you can manually change the ANSI colors in your Terminal preferences to these color codes:
 
     | Color               | Hex Code |
     |---------------------|----------|
@@ -25,8 +25,8 @@ This theme is inspired by [Material Theme for Sublime Text 3](https://github.com
     | Bright Blue (0C)    | #80B0FA  |
     | Magenta (05)        | #81678F  |
     | Bright Magenta (0D) | #C88FEC  |
-    | Cyan (06)           | #ACD5DA  |
-    | Bright Cyan (0E)    | #7DCBC4  |
+    | Cyan (06)           | #33474F  |
+    | Bright Cyan (0E)    | #5F8291  |
     | White (07)          | #707880  |
     | Bright White (0F)   | #C4C7D1  |
 
