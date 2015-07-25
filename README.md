@@ -1,13 +1,23 @@
 #Material for Vim
 This theme is inspired by [Material Theme](https://github.com/equinusocio/material-theme) by [equinusocio](https://github.com/equinusocio) and works on terminal Vim.
 
-![vim-material](https://www.github.com/jackiehluo/vim-material/raw/master/screenshot.png)
+![python](https://www.github.com/jackiehluo/vim-material/raw/master/screenshot.png)
 
 ##Installation
 
 1. Move `material.vim` to your `.vim/colors` directory or install with [Pathogen](https://github.com/tpope/vim-pathogen) by cloning this repo to your `~/.vim/bundle` directory.
 
-2. Import `material.terminal` in your Terminal preferences to add the color scheme. If you can't, you can manually change the ANSI colors in your Terminal preferences to these color codes:
+2. Import `material.terminal` in your Terminal preferences to add the color scheme.
+
+3. Add the following to your `.vimrc`:
+
+    ```vimL
+    syntax enable
+    set background=dark
+    colorscheme material
+    ```
+
+If you can't import the Terminal theme, you can manually change the ANSI colors in your Terminal preferences to these color codes:
 
     | Color               | Hex Code |
     |---------------------|----------|
@@ -29,11 +39,3 @@ This theme is inspired by [Material Theme](https://github.com/equinusocio/materi
     | Bright Cyan (0E)    | #5F8291  |
     | White (07)          | #707880  |
     | Bright White (0F)   | #C4C7D1  |
-
-3. Add the following to your `.vimrc`:
-
-    ```vimL
-    syntax enable
-    set background=dark
-    colorscheme material
-    ```
